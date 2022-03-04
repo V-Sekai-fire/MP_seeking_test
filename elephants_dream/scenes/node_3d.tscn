@@ -1,6 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://b72e68rmllp1n"]
+[gd_scene load_steps=5 format=3]
 
-[ext_resource type="PackedScene" uid="uid://bqmi5qrqu1ntr" path="res://VideoStreamPlayer.tscn" id="1_4li2a"]
+[ext_resource type="PackedScene" path="res://elephants_dream/scenes/VideoStreamPlayer.tscn" id="1_4li2a"]
 
 [sub_resource type="QuadMesh" id="QuadMesh_stq0e"]
 resource_local_to_scene = true

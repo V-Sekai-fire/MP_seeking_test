@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3]
+[gd_scene load_steps=3 format=3 uid="uid://dcmn128ip3lcd"]
 
 [ext_resource type="VideoStream" path="res://elephants_dream/art/elephants-dream.webm" id="1_c1r2a"]
 [ext_resource type="Script" path="res://elephants_dream/core/VideoStreamPlayer.gd" id="2_1fd30"]

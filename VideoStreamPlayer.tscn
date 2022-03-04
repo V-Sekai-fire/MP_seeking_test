@@ -1,0 +1,34 @@
+[gd_scene load_steps=3 format=3 uid="uid://bqmi5qrqu1ntr"]
+
+[ext_resource type="VideoStream" path="res://elephants-dream.webm" id="1_c1r2a"]
+[ext_resource type="Script" path="res://VideoStreamPlayer.gd" id="2_1fd30"]
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer"]
+rect_min_size = Vector2(1528, 1120)
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -8.0
+offset_right = 1528.0
+offset_bottom = 1112.0
+grow_horizontal = 2
+grow_vertical = 2
+rect_scale = Vector2(0.360001, 0.360001)
+size_flags_horizontal = 3
+size_flags_vertical = 3
+stream = ExtResource( "1_c1r2a" )
+autoplay = true
+script = ExtResource( "2_1fd30" )
+__meta__ = {
+"_edit_use_custom_anchors": false
+}
+slider = NodePath("HSlider")
+
+[node name="HSlider" type="HSlider" parent="."]
+offset_left = 42.0
+offset_top = 1496.0
+offset_right = 2572.0
+offset_bottom = 1527.0
+__meta__ = {
+"_edit_layout_mode": 0,
+"_edit_use_custom_anchors": false
+}
